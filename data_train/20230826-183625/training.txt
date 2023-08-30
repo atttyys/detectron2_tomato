@@ -1,0 +1,36 @@
+2023-08-26 19:06:31,502 - INFO - Evaluation results for bbox: 
+|   AP   |  AP50  |  AP75  |  APs  |  APm  |  APl   |
+|:------:|:------:|:------:|:-----:|:-----:|:------:|
+| 15.659 | 28.135 | 16.115 | 0.000 | 5.666 | 16.986 |
+2023-08-26 19:06:31,503 - INFO - Per-category bbox AP: 
+| category        | AP     | category       | AP     | category   | AP     |
+|:----------------|:-------|:---------------|:-------|:-----------|:-------|
+| b_fully_ripened | 5.362  | b_half_ripened | 25.772 | b_green    | 25.405 |
+| l_fully_ripened | 14.003 | l_half_ripened | 8.773  | l_green    | 14.636 |
+2023-08-26 19:06:32,589 - INFO - Evaluate annotation type *segm*
+2023-08-26 19:06:33,668 - INFO - COCOeval_opt.evaluate() finished in 1.08 seconds.
+2023-08-26 19:06:33,674 - INFO - Accumulating evaluation results...
+2023-08-26 19:06:33,746 - INFO - COCOeval_opt.accumulate() finished in 0.07 seconds.
+2023-08-26 19:06:33,760 - INFO - Evaluation results for segm: 
+|   AP   |  AP50  |  AP75  |  APs  |  APm  |  APl   |
+|:------:|:------:|:------:|:-----:|:-----:|:------:|
+| 17.334 | 27.738 | 18.840 | 0.000 | 3.863 | 20.292 |
+2023-08-26 19:06:33,762 - INFO - Per-category segm AP: 
+| category        | AP     | category       | AP     | category   | AP     |
+|:----------------|:-------|:---------------|:-------|:-----------|:-------|
+| b_fully_ripened | 6.611  | b_half_ripened | 29.177 | b_green    | 27.188 |
+| l_fully_ripened | 15.445 | l_half_ripened | 9.248  | l_green    | 16.335 |
+2023-08-26 19:06:33,984 - INFO - Evaluation results for tomato_test in csv format:
+2023-08-26 19:06:33,984 - INFO - copypaste: Task: bbox
+2023-08-26 19:06:33,984 - INFO - copypaste: AP,AP50,AP75,APs,APm,APl
+2023-08-26 19:06:33,984 - INFO - copypaste: 15.6586,28.1354,16.1150,0.0000,5.6662,16.9859
+2023-08-26 19:06:33,984 - INFO - copypaste: Task: segm
+2023-08-26 19:06:33,984 - INFO - copypaste: AP,AP50,AP75,APs,APm,APl
+2023-08-26 19:06:33,984 - INFO - copypaste: 17.3340,27.7375,18.8396,0.0000,3.8628,20.2916
+2023-08-26 19:06:34,760 - INFO - บันทึกโมเดลทดสอบเสร็จแล้วที่ : .\train\mask_rcnn_R_50_C4_1x.yaml\20230826-183625\before
+2023-08-26 19:06:34,760 - INFO - Base Model: COCO-InstanceSegmentation/mask_rcnn_R_50_C4_1x.yaml
+2023-08-26 19:06:34,761 - INFO - จำนวณรอบการฝึกอบรม (epoch): 1000
+2023-08-26 19:06:34,761 - INFO - จำนวณอัตราการเรียนรู้ (lr)  : 0.01
+2023-08-26 19:06:34,761 - INFO - ขนาดต้นทาง (input size) : (224, 224)
+2023-08-26 19:06:34,761 - INFO - อุปกรณ์ที่ใช้ฝึกสอน (device): cuda
+2023-08-26 19:06:34,761 - INFO - เวลาที่ใช้ในการฝึกสอน: 30.0 นาที 7.60 วินาที
