@@ -7,3 +7,4 @@ laboro_tomato/*
 /mobilenet_rcnn.py
 /model_diagram.png
 /trainnig.ipynb
+/__pycache__
