@@ -1,0 +1,27 @@
+2023-09-01 21:21:30,228 - INFO - Total training time: 0:04:06 (0:00:01 on hooks)
+2023-09-01 21:30:12,130 - INFO - Total inference time: 0:08:24.487846 (3.233896 s / iter per device, on 1 devices)
+2023-09-01 21:30:12,131 - INFO - Total inference pure compute time: 0:00:22 (0.145935 s / iter per device, on 1 devices)
+2023-09-01 21:30:12,747 - INFO - Evaluation results for bbox:
+|   AP   |  AP50  |  AP75  |  APs  |  APm  |  APl   |
+|:------:|:------:|:------:|:-----:|:-----:|:------:|
+| 12.160 | 25.642 | 8.872  | 0.000 | 2.180 | 12.843 |
+2023-09-01 21:30:12,749 - INFO - Per-category bbox AP:
+| category        | AP     | category       | AP    | category   | AP     |
+|:----------------|:-------|:---------------|:------|:-----------|:-------|
+| b_fully_ripened | 23.314 | b_half_ripened | 7.335 | b_green    | 24.657 |
+| l_fully_ripened | 9.233  | l_half_ripened | 0.481 | l_green    | 7.941  |
+2023-09-01 21:30:13,743 - INFO - Evaluation results for segm:
+|   AP   |  AP50  |  AP75  |  APs  |  APm  |  APl   |
+|:------:|:------:|:------:|:-----:|:-----:|:------:|
+| 15.266 | 25.947 | 16.872 | 0.000 | 1.731 | 16.850 |
+2023-09-01 21:30:13,747 - INFO - Per-category segm AP:
+| category        | AP     | category       | AP     | category   | AP     |
+|:----------------|:-------|:---------------|:-------|:-----------|:-------|
+| b_fully_ripened | 25.979 | b_half_ripened | 11.446 | b_green    | 34.015 |
+| l_fully_ripened | 11.075 | l_half_ripened | 0.710  | l_green    | 8.371  |
+2023-09-01 21:30:13,770 - INFO - copypaste: Task: bbox
+2023-09-01 21:30:13,771 - INFO - copypaste: AP,AP50,AP75,APs,APm,APl
+2023-09-01 21:30:13,774 - INFO - copypaste: 12.1603,25.6415,8.8723,0.0000,2.1800,12.8426
+2023-09-01 21:30:13,775 - INFO - copypaste: Task: segm
+2023-09-01 21:30:13,776 - INFO - copypaste: AP,AP50,AP75,APs,APm,APl
+2023-09-01 21:30:13,777 - INFO - copypaste: 15.2661,25.9470,16.8722,0.0000,1.7310,16.8499
