@@ -2,9 +2,7 @@ mrcnn/*
 Mask_RCNN/*
 /laboro_tomato
 laboro_tomato/*
-/models
-/custom.ipynb
-/mobilenet_rcnn.py
-/model_diagram.png
-/trainnig.ipynb
-/__pycache__
+models/*
+custom.ipynb
+mobilenet_rcnn.py
+model_diagram.png
