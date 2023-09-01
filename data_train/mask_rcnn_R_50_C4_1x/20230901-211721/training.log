@@ -25,3 +25,10 @@
 2023-09-01 21:30:13,775 - INFO - copypaste: Task: segm
 2023-09-01 21:30:13,776 - INFO - copypaste: AP,AP50,AP75,APs,APm,APl
 2023-09-01 21:30:13,777 - INFO - copypaste: 15.2661,25.9470,16.8722,0.0000,1.7310,16.8499
+บันทึกโมเดลทดสอบเสร็จแล้วที่ : ./train/mask_rcnn_R_50_C4_1x.yaml/20230901-211721/before
+Base Model: COCO-InstanceSegmentation/mask_rcnn_R_50_C4_1x.yaml
+จำนวณรอบการฝึกอบรม (epoch): 1000
+จำนวณอัตราการเรียนรู้ (lr)  : 0.0001
+ขนาดต้นทาง (input size) : (336, 336)
+อุปกรณ์ที่ใช้ฝึกสอน (device): cuda (A100 on google-colab)
+เวลาที่ใช้ในการฝึกสอน: 12.0 นาที 51.85 วินาที
