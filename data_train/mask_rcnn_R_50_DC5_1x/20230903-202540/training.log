@@ -1,0 +1,34 @@
+2023-09-03 20:34:05,433 - INFO - Total training time: 0:08:17 (0:00:06 on hooks)
+2023-09-03 20:42:41,580 - INFO - Total inference time: 0:08:07.516269 (3.125104 s / iter per device, on 1 devices)
+2023-09-03 20:42:41,581 - INFO - Total inference pure compute time: 0:01:00 (0.390246 s / iter per device, on 1 devices)
+2023-09-03 20:42:41,898 - INFO - Evaluation results for bbox:
+|   AP   |  AP50  |  AP75  |  APs  |  APm   |  APl   |
+|:------:|:------:|:------:|:-----:|:------:|:------:|
+| 52.279 | 74.216 | 60.952 | 0.000 | 15.070 | 55.447 |
+2023-09-03 20:42:41,901 - INFO - Per-category bbox AP:
+| category        | AP     | category       | AP     | category   | AP     |
+|:----------------|:-------|:---------------|:-------|:-----------|:-------|
+| b_fully_ripened | 51.738 | b_half_ripened | 50.950 | b_green    | 59.431 |
+| l_fully_ripened | 49.710 | l_half_ripened | 49.706 | l_green    | 52.140 |
+2023-09-03 20:42:42,550 - INFO - Evaluation results for segm:
+|   AP   |  AP50  |  AP75  |  APs  |  APm  |  APl   |
+|:------:|:------:|:------:|:-----:|:-----:|:------:|
+| 56.382 | 74.398 | 63.420 | 0.000 | 7.160 | 60.331 |
+2023-09-03 20:42:42,555 - INFO - Per-category segm AP:
+| category        | AP     | category       | AP     | category   | AP     |
+|:----------------|:-------|:---------------|:-------|:-----------|:-------|
+| b_fully_ripened | 58.493 | b_half_ripened | 52.094 | b_green    | 64.140 |
+| l_fully_ripened | 56.202 | l_half_ripened | 51.520 | l_green    | 55.843 |
+2023-09-03 20:42:42,571 - INFO - copypaste: Task: bbox
+2023-09-03 20:42:42,572 - INFO - copypaste: AP,AP50,AP75,APs,APm,APl
+2023-09-03 20:42:42,573 - INFO - copypaste: 52.2793,74.2158,60.9515,0.0000,15.0696,55.4472
+2023-09-03 20:42:42,576 - INFO - copypaste: Task: segm
+2023-09-03 20:42:42,577 - INFO - copypaste: AP,AP50,AP75,APs,APm,APl
+2023-09-03 20:42:42,578 - INFO - copypaste: 56.3820,74.3980,63.4196,0.0000,7.1603,60.3310
+บันทึกโมเดลทดสอบเสร็จแล้วที่ : ../train/mask_rcnn_R_50_DC5_1x.yaml/20230903-202540/before
+Base Model: COCO-InstanceSegmentation/mask_rcnn_R_50_DC5_1x.yaml
+จำนวณรอบการฝึกอบรม (epoch): 1800
+จำนวณอัตราการเรียนรู้ (lr)  : 0.001
+ขนาดต้นทาง (input size) : (672, 672)
+อุปกรณ์ที่ใช้ฝึกสอน (device): cuda (T4 on google-colab)
+เวลาที่ใช้ในการฝึกสอน: 16.0 นาที 59.37 วินาที
